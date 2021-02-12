@@ -4,6 +4,11 @@
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
+  width: 100%;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

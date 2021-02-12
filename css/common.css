@@ -41,15 +41,36 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid black;
+  /* background-color: burlywood; */
+}
+
 /*  Logo */
 .logo {
-  font-family: 'Raleway', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 93px;
 
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-
   color: var(--logo-basic);
+
+  outline: 1px solid blueviolet;
 }
 
 .logo-web {
@@ -57,7 +78,59 @@ address {
 }
 
 /* Main navigation */
-.link {
+.navigation-flex {
+  display: flex;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-navigation-list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navigation-item {
+  margin-right: 50px;
+
+  outline: 1px solid blueviolet;
+}
+
+.navigation-item:last-child {
+  margin-right: 0;
+}
+
+.header-address {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  outline: 1px solid blueviolet;
+}
+
+.header-address-list {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.address-list-item {
+  margin-right: 50px;
+
+  outline: 1px solid blueviolet;
+}
+
+.address-list-item:last-child {
+  margin-right: 0;
+}
+
+.link-navigation {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -66,9 +139,9 @@ address {
   color: var(--main-text-color);
 }
 
-.link:hover,
-.link:focus,
-.link-visited:visited {
+.link-navigation:hover,
+.link-navigation:focus,
+.link-navigation-visited:visited {
   color: var(--hover-color);
 }
 
@@ -88,7 +161,6 @@ address {
 }
 
 /* Main */
-
 .color-button {
   font-weight: 700;
   font-size: 16px;

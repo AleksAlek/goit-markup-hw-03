@@ -16,37 +16,52 @@
   <body>
     <!-- Header -->
     <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-web">Web</span>Studio</a
-        >
-        <ul>
-          <li><a href="./index.html" class="link link-visited">Студия</a></li>
-          <li><a href="portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-header"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts-header"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container navigation-flex">
+        <nav class="main-navigation">
+          <a href="./index.html" class="logo"
+            ><span class="logo-web">Web</span>Studio</a
+          >
+          <ul class="main-navigation-list">
+            <li class="navigation-item">
+              <a href="./index.html" class="link-navigation link-visited"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="./portfolio.html" class="link-navigation">Портфолио</a>
+            </li>
+            <li class="navigation-item">
+              <a href="" class="link-navigation">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list">
+            <li class="address-list-item">
+              <a href="mailto:info@devstudio.com" class="contacts-header"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a href="tel:+380961111111" class="contacts-header"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <!-- Герой -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="color-button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button type="button" class="color-button">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Наши преимущества -->
