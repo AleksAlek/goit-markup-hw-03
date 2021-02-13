@@ -34,13 +34,26 @@
   padding-bottom: 94px;
   padding-top: 94px;
   padding-left: 0;
+
+  /* outline: 1px solid blueviolet; */
 }
 
 .advantages-item {
-  /* width: calc((100% - 90px) / 4); */
+  flex-basis: calc(100% / 4);
+  margin-right: 30px;
+
+  /* outline: 1px solid blueviolet; */
+}
+
+.advantages-item:last-child {
+  margin-right: 0;
+
+  /* outline: 1px solid blueviolet; */
 }
 
 .advantage-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
