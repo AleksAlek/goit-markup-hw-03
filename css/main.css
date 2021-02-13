@@ -3,23 +3,42 @@
   background-color: var(--hero-color);
 }
 
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
   width: 100%;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: var(--hero-title-color);
 }
 
+.hero-button {
+  padding: 10px 32px;
+  border-radius: 4px;
+}
+
 /* Наши преимущества */
+.advantages-list {
+  display: flex;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0;
+}
+
+.advantages-item {
+  /* width: calc((100% - 90px) / 4); */
+}
 
 .advantage-title {
   font-weight: 700;
