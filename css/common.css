@@ -20,6 +20,9 @@
   /* Hero block */
   --hero-color: #2f303a;
 
+  /* Our team */
+  --background-team: #f5f4fa;
+
   /* Card team*/
   --background-card-team: #ffffff;
 
@@ -68,7 +71,7 @@ p {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   /* background-color: burlywood; */
 }
 
@@ -210,8 +213,19 @@ p {
 }
 
 /* Footer */
-.footer {
+.main-footer {
   background-color: var(--footer-color);
+}
+
+.main-footer > .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.main-footer .logo {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .logo-studio {
@@ -219,11 +233,25 @@ p {
 }
 
 .office-address {
+  margin-bottom: 9px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--office-address-color);
+}
+
+.footer-contacts-list {
+  padding-left: 0;
+}
+
+.contacts-list-item {
+  margin-bottom: 9px;
+}
+
+.contacts-list-item:last-child {
+  margin-bottom: 0;
 }
 
 .contacts-footer {
