@@ -91,14 +91,14 @@
   background-color: var(--background-team);
 }
 
-.team-title {
+.team-container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
   display: flex;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .team-list-card {
