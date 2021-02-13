@@ -20,6 +20,9 @@
   /* Hero block */
   --hero-color: #2f303a;
 
+  /* Card team*/
+  --background-card-team: #ffffff;
+
   /* Footer block */
   --footer-color: #2f303a;
 }
@@ -197,6 +200,8 @@ p {
 }
 
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
