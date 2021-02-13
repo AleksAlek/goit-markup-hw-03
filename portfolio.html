@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="main-header">
       <div class="container header-navigation">
         <nav class="main-navigation">
           <a href="./index.html" class="logo"
@@ -25,11 +25,13 @@
             <li class="navigation-item">
               <a href="./index.html" class="navigation-link">Студия</a>
             </li>
+
             <li class="navigation-item">
               <a href="portfolio.html" class="navigation-link current-link"
                 >Портфолио</a
               >
             </li>
+
             <li class="navigation-item">
               <a href="" class="navigation-link">Контакты</a>
             </li>
@@ -56,88 +58,124 @@
     <main>
       <!-- Наши работы -->
       <section>
-        <h1 class="visually-hidden">Наши работы</h1>
-        <ul>
-          <li><button type="button" class="filter-button">Все</button></li>
-          <li>
-            <button type="button" class="filter-button">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="filter-button">Приложения</button>
-          </li>
-          <li><button type="button" class="filter-button">Дизайн</button></li>
-          <li>
-            <button type="button" class="filter-button">Маркетинг</button>
-          </li>
-        </ul>
+        <div class="container portfolio-container">
+          <h1 class="visually-hidden">Наши работы</h1>
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button type="button" class="filter-button">Все</button>
+            </li>
 
-        <ul>
-          <li>
-            <img src="./images/tehno.jpg" alt="Технокряк" width="370" />
-            <h2 class="card-title">Технокряк</h2>
-            <p class="type-project">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/new-orlean.jpg"
-              alt="Постер New Orlean vs Golden Star"
-              width="370"
-            />
-            <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-            <p class="type-project">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/seafood.jpg"
-              alt="Ресторан Seafood"
-              width="370"
-            />
-            <h2 class="card-title">Ресторан Seafood</h2>
-            <p class="type-project">Приложение</p>
-          </li>
-          <li>
-            <img src="./images/prime.jpg" alt="Проект Prime" width="370" />
-            <h2 class="card-title">Проект Prime</h2>
-            <p class="type-project">Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/boxes.jpg" alt="Проект Boxes" width="370" />
-            <h2 class="card-title">Проект Boxes</h2>
-            <p class="type-project">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/inspiration.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-            />
-            <h2 class="card-title">Inspiration has no Borders</h2>
-            <p class="type-project">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/limited-edition.jpg"
-              alt="Издание Limited Edition"
-              width="370"
-            />
-            <h2 class="card-title">Издание Limited Edition</h2>
-            <p class="type-project">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/lab.jpg" alt="Проект LAB" width="370" />
-            <h2 class="card-title">Проект LAB</h2>
-            <p class="type-project">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/growing-business.jpg"
-              alt="Growing Business"
-              width="370"
-            />
-            <h2 class="card-title">Growing Business</h2>
-            <p class="type-project">Приложение</p>
-          </li>
-        </ul>
+            <li class="filter-item">
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+
+            <li class="filter-item">
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+
+            <li class="filter-item">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
+
+            <li class="filter-item">
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="portfolio-cards">
+            <li class="card-item">
+              <img src="./images/tehno.jpg" alt="Технокряк" width="370" />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Технокряк</h2>
+                <p class="type-project">Веб-сайт</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img
+                src="./images/new-orlean.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+              />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                <p class="type-project">Дизайн</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img
+                src="./images/seafood.jpg"
+                alt="Ресторан Seafood"
+                width="370"
+              />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Ресторан Seafood</h2>
+                <p class="type-project">Приложение</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img src="./images/prime.jpg" alt="Проект Prime" width="370" />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Проект Prime</h2>
+                <p class="type-project">Маркетинг</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img src="./images/boxes.jpg" alt="Проект Boxes" width="370" />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Проект Boxes</h2>
+                <p class="type-project">Приложение</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img
+                src="./images/inspiration.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+              />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Inspiration has no Borders</h2>
+                <p class="type-project">Веб-сайт</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img
+                src="./images/limited-edition.jpg"
+                alt="Издание Limited Edition"
+                width="370"
+              />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Издание Limited Edition</h2>
+                <p class="type-project">Дизайн</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img src="./images/lab.jpg" alt="Проект LAB" width="370" />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Проект LAB</h2>
+                <p class="type-project">Маркетинг</p>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <img
+                src="./images/growing-business.jpg"
+                alt="Growing Business"
+                width="370"
+              />
+              <div class="portfolio-card-description">
+                <h2 class="card-title">Growing Business</h2>
+                <p class="type-project">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
