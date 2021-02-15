@@ -1,9 +1,6 @@
 /* Герой */
 .hero {
   background-color: var(--hero-color);
-}
-
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -31,10 +28,13 @@
 }
 
 /* Наши преимущества */
-.advantages-list {
-  display: flex;
+.advantages-section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+.advantages-list {
+  display: flex;
   padding-left: 0;
 
   /* outline: 1px solid blueviolet; */
@@ -73,10 +73,13 @@
 }
 
 /* Чем мы занимаемся */
+.projects-section {
+  padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 
 .work-list-item {
@@ -90,13 +93,11 @@
 
 /* Наша команда */
 .team-section {
-  background-color: var(--background-team);
-}
-
-.team-container {
-  padding-top: 94px;
+  background-color: var(--background-team);  padding-top: 94px;
   padding-bottom: 94px;
 }
+
+
 
 .team-list {
   display: flex;
