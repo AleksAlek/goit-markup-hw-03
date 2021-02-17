@@ -29,7 +29,6 @@
 
 /* Наши преимущества */
 .advantages-section {
-  padding-bottom: 94px;
   padding-top: 94px;
 }
 
@@ -74,6 +73,7 @@
 
 /* Чем мы занимаемся */
 .projects-section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
